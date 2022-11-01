@@ -146,7 +146,7 @@ function initWidget(config, apiPath) {
         };
     }
     document.body.insertAdjacentHTML("beforeend", `<div id="waifu-toggle">
-            <span>看板娘</span>
+            <span style="margin-left: 5px">看板娘</span>
         </div>`);
     const toggle = document.getElementById("waifu-toggle");
     toggle.addEventListener("click", () => {
